@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dad7d7;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    margin-top: 9rem;
+    transition: 0.6s;
+}
+
+.input-group {
+    margin-top: 50px;
+}
+
+input[type="number"] {
+    width: 70%;
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: 1px solid #ccc;
+}
+
+select {
+    width: 32%;
+    height: fit-content;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: 1px solid #ccc;
+    background-color: #ccc;
+    color: grey;
+    font-weight: bolder;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#res{
+    font-size: 15px;
+    color: red;
+}
+
+.drop-down{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+option{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;   
+    color: black;
+    font-weight: bolder;
+}
+
+button{
+    margin-top: 30px;
+    padding: 7px 30px 7px 30px;
+    background-color: #ccc;
+    border:3px solid #ccc;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: grey;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: grey;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px 40px 15px 40px;
+    transition: 0.5s;
+}
+
+#result{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}

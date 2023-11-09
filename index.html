@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Converto-Meter</title>
+    <link rel="stylesheet" href="Convert.css" media="screen" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Temp Hub</h1>
+      <div class="input-group">
+        <input
+          type="number"
+          id="temperatureInput"
+          placeholder="Enter temperature"
+        />
+      </div>
+      <div class="drop-down">
+        <select id="FromTemperatureScale">
+          <option value="from">From</option> 
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option></select
+        >
+        <select id="ToTemperatureScale">
+          <option value="from">To</option> 
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+      </div>
+      <button onclick="TemperatureCon()">Convert</button>
+      <div class="result">
+        <p id="res"></p>
+        <p id="result"></p>
+      </div>
+    </div>
+
+    <script src="converter.js"></script>
+    
+  </body>
+</html>
